@@ -13,6 +13,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/data_visualization.png "Data Visualization"
+[image2]: ./examples/loss_epoch.png "Loss Epoch"
 [image3]: ./examples/nvidia_network.png "Nvidia Network"
 [image6]: ./examples/original_image.png "Normal Image"
 [image7]: ./examples/image_augment.png "Flipped Image"
@@ -27,7 +28,7 @@ My model consists of a convolution neural network and fully connected layer, and
 
 #### 2. Attempts to reduce overfitting in the model
 
-The model contains Lambda layers in order to reduce overfitting, augment doesn't work well on my data set. 
+The model contains Lambda layers and dropout in order to reduce overfitting, augment doesn't work well on my data set. 
 
 The model was trained and validated on different data sets to ensure that the model was not overfitting. 
 
@@ -52,4 +53,7 @@ To augment the data sat, I also flipped images and angles thinking that this wou
 ![alt text][image7]
 
 
-After the collection process, I had 23976 number of data points. I think maybe aument helpfully, but it doesn't work as well as imagine, so doesn't used in this project.
+After the collection process, I had 24465 number of data points. I think maybe aument helpfully, but it doesn't work as well as imagine, so doesn't used in this project.
+
+![alt text][image2]
+
